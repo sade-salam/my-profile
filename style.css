@@ -1,0 +1,78 @@
+body {
+	background-color: rgb(230, 230, 230);
+	color: rgb(50, 50, 50);
+	font-family: 'Lora', serif;
+	font-size: 16px;
+}
+
+
+h1, h2 {
+	font-family: 'Baloo Chettan 2', cursive;
+}
+h1{
+	color: #235952;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+
+h2 {
+	color: #9dc6a7;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: #235952;
+	font-weight: bold;
+}
+a:hover {
+	color: black;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align:  center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-green {
+	background-color: #9dc6a7;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.btn-green:hover {
+	background-color: #235952;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
